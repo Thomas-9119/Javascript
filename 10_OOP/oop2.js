@@ -1,10 +1,10 @@
-function User(username,Logininfo,isloggedin){
-  this.username=username;
-  this.Logininfo=Logininfo;
-  this.isloggedin=isloggedin;
+function User(username, Logininfo, isloggedin) {
+  this.username = username;
+  this.Logininfo = Logininfo;
+  this.isloggedin = isloggedin;
 
-  return this
+  return this;
 }
 
-const userOne = User("arj",12,true)
-console.log(userOne)
+const userOne = User("arj", 12, true);
+console.log(userOne);
