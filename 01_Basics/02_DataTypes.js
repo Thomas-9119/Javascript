@@ -1,4 +1,4 @@
-"use strict";
+"use strict"; //treat all codes as newer version of js
 // alert("hello") we can't use this because it is NodeJS not browser
 console.log(3+3); 
 console.log("Hello")
